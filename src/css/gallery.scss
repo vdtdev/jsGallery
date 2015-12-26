@@ -1,0 +1,17 @@
+// Main stylesheet for jsGal
+
+@import "includes/color-scheme";
+
+body {
+	background-color: $body-background;
+	color: $body-foreground;
+}
+
+a, a:active, a:visited {
+	text-decoration:none;
+	color: $body-link;
+	
+	:hover{
+		color: $body-link-hot;	
+	}
+}

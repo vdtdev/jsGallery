@@ -1,0 +1,19 @@
+// Body
+$body-background: #454545;
+$body-foreground: #ffffff;
+$body-edge: lighten($body-background,25%);
+$body-link: #858530;
+$body-link-hot: lighten($body-link,15%);
+
+// User Interface areas
+$ui-fill: #8080a0;
+$ui-fill-dark: darken($ui-fill, 15%);
+$ui-edge: darken($ui-fill,25%);
+$ui-fill-hot: lighten($ui-fill, 10%);
+$ui-text: darken($ui-fill,60%);
+
+// Content areas
+$content-fill: #d8d8ef;
+$content-edge: darken($content-fill,25%);
+$content-fill-dark: darken($content-fill,15%);
+$content-text: #000000;

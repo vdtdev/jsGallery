@@ -1,0 +1,14 @@
+{
+	"paths": {
+		"source": "src",
+		"intermed": "src-med",
+		"build": "build",
+		"script": "js",
+		"style": "css",
+		"libs": "js/libs"
+	},
+	"files": {
+		"script_ugly": "gallery.min.js",
+		"style_ugly": "gallery.css"
+	}
+}
